@@ -1,0 +1,13 @@
+class ArrayEx1 
+{
+	public static void main(String[] args) 
+	{
+		int [] age={20,40,18,30,60};
+      
+		System.out.println("My Age -->"+age[0]);
+		System.out.println("My Mother'sAge -->"+age[1]);
+		System.out.println("My Brother'sAge -->"+age[2]);
+		System.out.println("My Sister'sAge -->"+age[3]);
+		System.out.println("My Father'sAge -->"+age[4]);
+	}
+}

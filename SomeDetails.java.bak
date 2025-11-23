@@ -1,0 +1,22 @@
+import java.util.ArrayList;
+
+class SomeDetails 
+{
+	public static void main(String[] args) 
+	{
+		//Students Name&Id
+         ArrayList nameid = new ArrayList();
+		 nameid.add("101 -> Jhon");
+		 nameid.add("102 -> Motu");
+		 nameid.add("103 -> Patul");
+		 System.out.println("Students Name&Id :: "+nameid);
+
+		 //Employees Name&Id
+         ArrayList enameid = new ArrayList();
+		 enameid.add("1100 -> Jhon Bheraon");
+		 enameid.add("1102 -> James Gosling");
+		 enameid.add("1103 -> Ken Thompson");
+		 System.out.println("Employees Name&Id :: "+enameid);
+
+	}
+}

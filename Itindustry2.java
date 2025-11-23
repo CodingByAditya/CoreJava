@@ -1,0 +1,30 @@
+class Itindustry
+{
+	int id = 2012;
+	String empname = "Dibya Darshan Das";
+	String location = "Hyderabad";
+}  
+class Itindustry1 extends Itindustry
+{
+	int id = 2013;
+	String empname = "Sudhansu Rout";
+	String location = "Banglore";
+}
+class Itindustry2 extends Itindustry
+{
+	int id = 2014;
+	String empname = "Debraj Dutta";
+	String location = "Mumbai";
+
+	public static void main(String[] args) 
+	{
+        Itindustry2 i = new Itindustry2();
+        Itindustry1 it = new Itindustry1();
+		System.out.println(i.id);
+		System.out.println(i.empname);
+		System.out.println(i.location);
+		System.out.println(it.id);
+		System.out.println(it.empname);
+		System.out.println(it.location);
+	}
+}

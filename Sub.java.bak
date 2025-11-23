@@ -1,0 +1,17 @@
+class Super
+{
+	public void greeting(){
+		System.out.println("Hii user good morning");
+  }
+    public void greeting(){
+		System.out.println("Hii user good night");
+  }
+}
+class Sub extends Super
+{
+
+	public Ststic void main(String[]args)
+	{
+
+	}
+}

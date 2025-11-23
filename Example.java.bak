@@ -1,0 +1,25 @@
+class Example
+{
+    void get(){
+       String name = "ADITYA";
+       int     age;
+       double  sal;
+       System.out.println(name);
+       //System.out.println(id);
+       System.out.println(age);
+       System.out.println(sal);
+     }
+     void set(){
+        int id;
+	String faname="ADITYA2";
+	//System.out.println(name);
+	//System.out.println(age);
+	       System.out.println(id);
+     }
+     public static void main(String[]args)
+     {
+        Example e = new Example();
+	e.get();
+	e.set();
+      }
+    }

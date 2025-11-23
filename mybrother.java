@@ -1,0 +1,24 @@
+class Mybag
+{
+	private int book = 2;
+	String bookname = "Mathbook";
+
+	public void setBook(int book)
+	{
+		this.book=book;
+	}
+	public int getBook()
+	{
+		return book;
+	}
+}
+class mybrother
+{
+	public static void main(String[]args)
+	{
+        Mybag m = new Mybag();
+		System.out.println(m.bookname);
+		m.setBook(3);
+		System.out.println(m.getBook());
+   }
+}

@@ -1,0 +1,28 @@
+class School
+{
+	public void miltecher(){
+		System.out.println("Suprava Das");
+  }
+   	public void engtecher(){ 
+		System.out.println("Krushna chandra panigrahi");
+  }
+   	public void mathtecher(){ 
+		System.out.println("Sanjaya Dhala");
+  }
+}
+class Schoolcommitt
+{
+   	public void engtecher(){ 
+		System.out.println("Mandara dhara sahu");
+  }
+   	public void mathtecher(){ 
+		System.out.println("Sanjaya Nath");
+  }
+    public static void main(String[]args)
+  {
+     Schoolcommitt s = new Schoolcommitt();
+	 s.miltecher();
+	 s.engtecher();
+     s.mathtecher();
+  }
+}

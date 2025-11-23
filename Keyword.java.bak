@@ -1,0 +1,13 @@
+class Keyword 
+{
+	public static void main(String[] args) 
+	{
+		//With new keyword
+		String project1 = new String("Bug Tracker");
+		String project2 = new String("Chatbot");
+		String project3 = new String("Bug Tracker");
+		System.out.println(project1==project2);
+		System.out.println(project2==project1);
+		System.out.println(project3==project2);
+	}
+}

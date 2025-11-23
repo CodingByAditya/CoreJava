@@ -1,0 +1,25 @@
+class MethodExample11
+{
+    public void m1(){
+	System.out.println("m1-method");
+   }
+    public int m2(){
+	System.out.println("m2-method");
+	return 100;
+   }
+    public void m3(int a,int b,int c,int d){
+	System.out.println("m3-method");
+   }
+    public String m4(double d1,double d2){
+	System.out.println("m4-method");
+	return "abc";
+   }
+    public static void main(String[]args)
+   {
+	MethodExample11 m = new MethodExample11();
+    m.m1();
+    m.m2();
+    m.m3(10,20,30,40);
+	m.m4(100.0,300.0);
+   }
+}

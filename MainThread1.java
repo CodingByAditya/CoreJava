@@ -1,0 +1,21 @@
+class MyThread1 extends Thread
+{
+	public void start(){
+		for(int i=1;i<=10;i++){
+		System.out.println("Hus");
+		}
+	}
+}
+
+class MainThread1
+{
+	
+	public static void main(String[] args) 
+	{
+		MyThread1 m1 = new MyThread1();
+		m1.start();
+		for(int i=1;i<=10;i++){
+		System.out.println("ohhh");
+		}
+	}
+}

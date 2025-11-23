@@ -1,0 +1,43 @@
+class MakeMyTrip 
+{
+	public static void bookTicket(String name){
+		for(int i=1;i<=5;i++){
+		System.out.println("Hii- "+name+"you are booking ticket");
+		try{
+			Thread.sleep(1000);
+		}catch(InterruptedException e){
+
+		}
+	  }
+	}
+}
+class Aditya extends Thread
+{
+	public void run(){
+		MakeMyTrip.bookTicket("Aditya");
+	}
+}
+class Bikash extends Thread
+{
+	public void run(){
+		MakeMyTrip.bookTicket("Bikash");
+	}
+}
+class Sidhart extends Thread
+{
+	public void run(){
+		MakeMyTrip.bookTicket("Sidhart");
+	}
+}
+class MainMakeMyTrip
+{
+	public static void main(String[] args) 
+	{
+		Aditya a = new Aditya();
+		Bikash b = new Bikash();
+		Sidhart s = new Sidhart();
+		a.start();
+		b.start();
+		s.start();
+	}
+}

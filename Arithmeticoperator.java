@@ -1,0 +1,20 @@
+class Arithmeticoperator 
+{
+	public static void main(String[] args) 
+	{
+		int a = 230;
+		int b = 552;
+
+		
+        //addition
+		System.out.println("a + b = "+(a+b));
+		//substractor
+		System.out.println("a - b = "+(a-b));
+		//multiple
+		System.out.println("a * b = "+(a*b));
+		//division
+		System.out.println("a / b = "+(a/b));
+		//modulous
+		System.out.println("a % b = "+(a%b));
+	}
+}

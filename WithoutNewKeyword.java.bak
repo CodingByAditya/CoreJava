@@ -1,0 +1,8 @@
+class WithoutNewKeyword
+{
+	public static void main(String[] args) 
+	{
+		String name = "Aditya";
+		System.out.println("Without New Keyword : : "+name);
+	}
+}

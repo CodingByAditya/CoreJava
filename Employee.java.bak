@@ -1,0 +1,24 @@
+class Employee 
+{
+    int eid;
+    String ename;
+
+    public Employee(int eid,String ename)
+    {
+	this.eid = eid;
+	this.ename = ename;
+}
+   public String toString(){
+	   return eid+" "+ename
+
+	public static void main(String[] args) 
+    {
+	   Employee e1 = new Employee(100,"Aditya");
+	   Employee e2 = new Employee(101,"Bikash");
+	   Employee e3 = new Employee(102,"Sidharth");
+
+        System.out.println(e1.toString());
+	    System.out.println(e2.toString());
+	    System.out.println(e3.toString());
+   }
+}

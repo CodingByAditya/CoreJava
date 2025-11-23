@@ -1,0 +1,24 @@
+import java.util.HashSet;
+class HashSetEx 
+{
+	public static void main(String[] args) 
+	{
+        HashSet hs = new HashSet();
+		hs.add(4000);
+		hs.add(4000);
+		hs.add(5000);
+		hs.add("Adi");
+		hs.add("Bhumi");
+        System.out.println("AfterAdding -->" +hs);
+
+        System.out.println(hs.contains("Adi"));
+		
+        System.out.println(hs.size());
+
+		hs.remove("Adi");
+        System.out.println(hs);
+
+        hs.clear();
+        System.out.println(hs);
+	}
+}

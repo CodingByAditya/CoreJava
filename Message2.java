@@ -1,0 +1,20 @@
+class Message1 
+{
+	public void wish(String message){
+		System.out.println("Hii..."+message );
+   }
+}
+ class Message2 extends Message1
+ {
+	public void wish(String Wish1,String Wish2){
+		System.out.println(Wish1+""+Wish2 );
+   }
+ 
+
+	public static void main(String[] args) 
+	{
+        Message2 m = new Message2();
+		m.wish("Hey Boy ");
+		m.wish("late night","Go to bad");
+	}
+}

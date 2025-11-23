@@ -1,0 +1,12 @@
+class PreIncrement
+{
+	public static void main(String[] args) 
+	{
+		int i = 300;
+
+		int j = ++i + ++i + i + i + ++i + ++i + i;
+
+		System.out.println(i);
+		System.out.println(j);
+	}
+}

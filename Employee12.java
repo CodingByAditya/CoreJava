@@ -1,0 +1,31 @@
+ interface Employee12
+        {
+                       public abstract void m1();
+                       public abstract void m2();
+                       public abstract void m3();
+                       public abstract void m4();
+
+       }
+        class Company implements Employee12
+      {
+        public void m1(){
+        System.out.println("........Company Details........");
+      }
+        public void m2(){
+        System.out.println("--->MICROSOFT<---");
+     }
+        public void m3(){
+        System.out.println("ADDRESS-->United States Of  America");
+     }  
+        public void m4(){
+        System.out.println("It is a american multinational corporation");
+     }
+        public static void main(String[] args)
+     {
+        Company c = new Company();
+                    c.m1();
+                             c.m2();
+                             c.m3();
+                             c.m4();
+     }
+}

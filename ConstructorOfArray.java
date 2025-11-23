@@ -1,0 +1,22 @@
+import java.util.ArrayList;
+
+class ConstructorOfArray 
+{
+	public static void main(String[] args) 
+	{
+        ArrayList al1 = new ArrayList();
+		al1.add("Buku");
+		al1.add("Chikun");
+        ArrayList al2 = new ArrayList(al1);
+		al2.add("Liku");
+		al2.add("Tiku");
+		al2.add("Siku");
+        ArrayList al3 = new ArrayList(al2);
+		al3.add("Bubun");
+		al3.add("Dadula");
+		System.out.println(al1);
+		System.out.println(al2);
+		System.out.println(al3);
+
+	}
+}

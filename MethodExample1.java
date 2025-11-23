@@ -1,0 +1,16 @@
+class MethodExample1
+{
+	public void calculate(){
+		int num1 =100;
+		int num2 =200;
+		int res  =num1+num2;
+		System.out.println("First number--- "+num1);
+		System.out.println("Second number--- "+num2);
+		System.out.println("Result---- "+res);
+	}
+	public static void main(String[] args) 
+	{
+		MethodExample1 m = new MethodExample1();
+		m.calculate();
+	}
+}

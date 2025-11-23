@@ -1,0 +1,9 @@
+class InterruptedException1 
+{
+	public static void main(String[] args) 
+	{
+		System.out.println("Horry....");
+		Thread.sleep(2000);
+		System.out.println("Ohh....");
+	}
+}

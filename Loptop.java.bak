@@ -1,0 +1,11 @@
+class Laptop
+{
+	public static void main(String[] args)
+	{
+		int laptopid=9090;
+		String laptopname="Latitude 250";
+		String laptopbrand="dell";
+		double laptopprice=45000.00;
+		String laptopcolor="Metal black";
+   }
+}

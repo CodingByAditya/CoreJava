@@ -1,0 +1,21 @@
+import java.util.Vector;
+import java.util.ArrayList;
+
+class VectorEx  
+{
+	public static void main(String[] args) 
+	{
+       ArrayList al = new ArrayList();
+	   al.add("Beautiful");
+	   al.add("Nature");
+	   al.add("View In Kerala");
+       Vector v = new Vector(al);
+	   v.add("Peacefully");
+	   v.add("Life");
+	   System.out.println(v);
+	  System.out.println(v.capacity());
+	  System.out.println(v.isEmpty());
+	  v.clear();
+	  System.out.println(v.isEmpty());
+	}
+}

@@ -1,0 +1,13 @@
+class ImmutableNature 
+{
+	public static void main(String[] args) 
+	{
+		String name = new String("Narendra");
+		String name1 = new String(" Damodara Das Modi");
+		String Fullname = name.concat(name1);
+		System.out.println("1st name :: "+name);
+		System.out.println("2nd name :: "+name1);
+		System.out.println("3rd name :: "+name2);
+		System.out.println("Full name :: "+Fullname);
+	}
+}

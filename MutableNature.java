@@ -1,0 +1,11 @@
+class MutableNature 
+{
+	public static void main(String[] args) 
+	{
+		//StringBuffer is MutableNature
+		StringBuffer name = new StringBuffer("Biswarupa");
+		System.out.println("Before appending :: "+name);
+		name.append(" Singh");
+		System.out.println("After appending :: "+name);
+	}
+}

@@ -1,0 +1,18 @@
+import java.util.ArrayList;
+
+class ConstructorOfArray1
+{
+	public static void main(String[] args) 
+	{
+ ArrayList<String[]> arrayList = new ArrayList<>();
+
+		al1.add("Buku");
+		al1.add("Chikun");
+		 for (String[] row : arrayList) {
+            for (String col : row) {
+                System.out.print(col + " ");
+            }
+		 }
+		System.out.println(al1);
+	}
+}

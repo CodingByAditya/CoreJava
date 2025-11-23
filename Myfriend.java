@@ -1,0 +1,24 @@
+class Myfriend
+{
+	public void m1(){
+	    System.out.println("I Have A Best Friend");
+   }
+	public void m1(int a){
+	    System.out.println("His Name is Bibhuti Ranjan Behera");
+   }
+	public void m1(int a,String b){
+	    System.out.println("Age is 20");
+   }
+    public void m1(boolean a,double b,float c){
+	    System.out.println("He is Now Study in Sambulpur Enginnering College");
+   }
+
+   public static void main(String[]args)
+   {
+       Myfriend m = new Myfriend();
+	   m.m1();
+	   m.m1(10);
+	   m.m1(20,"A");
+	   m.m1(false,1.22d,1.2f);
+   }
+}

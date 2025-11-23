@@ -1,0 +1,12 @@
+class Aditya
+{
+	String sname = "Jayashree Rout";
+	String bname = "Aman Rout";
+
+    public static void main(String[]args)
+	{
+		Aditya1 a = new Aditya1();
+		System.out.println(a.sname);
+		System.out.println(a.bname);
+	}
+}

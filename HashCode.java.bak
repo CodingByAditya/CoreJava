@@ -1,0 +1,22 @@
+class Employee 
+{
+	    int eid;
+		String ename;
+
+		public Employee(int eid,String ename)
+			{
+			this.eid = eid;
+			this.ename = ename;
+		}
+
+			public static void main(String[] args) 
+		{
+				Employee e1 = new Employee(100,"Aditya");
+				Employee e2 = new Employee(101,"Bikash");
+				Employee e3 = new Employee(100,"Sidharth");
+
+		     System.out.println(e1.HashCode());
+			 System.out.println(e2.hashcode());
+			 System.out.println(e3.hashcode());
+	}
+}

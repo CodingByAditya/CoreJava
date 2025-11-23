@@ -1,0 +1,43 @@
+class Student
+{
+	static String clgname="BIET";
+	String name;
+	String regdno;
+	String Course;
+    double CourseFees;
+
+	public Student(String name,String regdno,String Course,double CourseFees)
+		{
+		this.name=name;
+		this.regdno=regdno;
+		this.Course=Course;
+		this.CourseFees=CourseFees;
+	}
+	public static void main(String[] args) 
+	{
+		Student s1 = new Student("Aditya Rout","2301205008","CSE",60000.00);
+		Student s2 = new Student("Bikash Pradhan","2301205019","CSE",60000.00);
+		Student s3 = new Student("Subashis Pati","2301205052","CSE",60000.00);
+
+		System.out.println("***Welcome To BIET***");
+        System.out.println("-------First Student Details----------");
+		System.out.println("Name:"+s1.name);
+		System.out.println("regdno:"+s1.regdno);
+		System.out.println("Course:"+s1.Course);
+		System.out.println("CourseFees:"+s1.CourseFees);
+		System.out.println("clgname: "+Student.clgname);
+		System.out.println("-------Second Student Details----------");
+		System.out.println("Name:"+s2.name);
+		System.out.println("regdno:"+s2.regdno);
+		System.out.println("Course:"+s2.Course);
+		System.out.println("CourseFees:"+s2.CourseFees);
+		System.out.println("clgname: "+Student.clgname);
+		System.out.println("-------Third Student Details----------");
+		System.out.println("Name:"+s3.name);
+		System.out.println("regdno:"+s3.regdno);
+		System.out.println("Course:"+s3.Course);
+		System.out.println("CourseFees:"+s3.CourseFees);
+		System.out.println("clgname: "+Student.clgname);
+	}
+}
+

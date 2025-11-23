@@ -1,0 +1,16 @@
+class  Product
+{
+	  int    pid;
+	  String pname;
+	  String expireDate;
+	  double price;
+	public static void main(String[] args) 
+	{
+		//create the object
+		Product p = new Product();
+		System.out.println(p.pid);
+		System.out.println(p.pname);
+		System.out.println(p.expireDate);
+		System.out.println(p.price);
+	}
+}

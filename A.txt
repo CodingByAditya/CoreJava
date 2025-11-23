@@ -1,0 +1,6 @@
+class Student{
+    int id =100;
+ String name = "Aditya"
+int age =29;
+String home ="Bhadrak"
+}

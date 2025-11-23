@@ -1,0 +1,14 @@
+interface A
+{
+	public static void m1(){
+		System.out.println("i am aditya");
+	}
+}
+class Cimplements A
+{
+	public static void main(String[]args)
+	{
+		C c = new B();
+		c.m1();
+	}
+}

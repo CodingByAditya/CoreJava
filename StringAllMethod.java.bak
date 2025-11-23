@@ -1,0 +1,18 @@
+class StringAllMethod 
+{
+	public static void main(String[] args) 
+	{
+		String p1 = "Banglore";
+		System.out.println(p1.charAt(5));
+		System.out.println(p1.indexOf("o"));
+		System.out.println(p1.startsWith("B"));
+		System.out.println(p1.endsWith("l"));
+
+        String v2 = "    I Want To Visit Maladipe";
+		System.out.println(v2);
+		System.out.println(v2.length());
+		System.out.println(v2.trim());
+		System.out.println(v2.trim().length());
+	    String[] v2 = v2.split(",");
+	}
+}

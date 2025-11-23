@@ -1,0 +1,32 @@
+class College
+{
+	int clgid = 502;
+	String Engtecher = "Sanjay Das";
+}
+class College1 extends College
+{
+	String Mathtecher = "Shiva Das";
+}
+class College2 extends College1
+{
+	String Odiatecher = "Subrava Das";
+}
+class College3 extends College2
+{
+	String Snskrittecher = "Ashok Sahu";
+}
+class College4 extends College3
+{
+	String Sciencetecher = "Sanjay Nath";
+
+	public static void main(String[]args)
+	{
+      College4 c = new College4();
+	  System.out.println(clgid);
+	  System.out.println(Engtecher);
+	  System.out.println(Mathtecher);
+	  System.out.println(Odiatecher);
+	  System.out.println(Snskrittecher);
+	  System.out.println(Sciencetecher);
+   }
+}
